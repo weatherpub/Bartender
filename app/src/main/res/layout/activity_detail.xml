@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.detail.DetailActivity">
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingLeft="16dp"
+      android:paddingRight="16dp"
+      android:orientation="vertical"
+      android:gravity="center">
+
+   <ImageView
+       android:id="@+id/drinkThumb"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:contentDescription="@string/image_view" />
+
+   <TextView
+       android:id="@+id/drink"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/drinkAlternate"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/tags"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/video"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/category"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/iba"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/alcoholic"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/glass"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/instructions"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/instructionsES"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/instructionsDE"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/instructionsFR"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/instructionsIT"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/instructionsZH_HANS"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/instructionsZH_HANT"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient5"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient6"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient7"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient8"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient9"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient10"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient11"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient12"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient13"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient14"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/ingredient15"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure2"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure5"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure6"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure7"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure8"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure9"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure10"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure11"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure12"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure13"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure14"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/measure15"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/imageSource"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/imageAttraction"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/creativeCommonsConfirmed"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+
+   <TextView
+       android:id="@+id/date"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </TextView>
+  </LinearLayout>
+ </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
