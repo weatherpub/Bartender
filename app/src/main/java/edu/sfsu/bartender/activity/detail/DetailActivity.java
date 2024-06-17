@@ -2,10 +2,12 @@ package edu.sfsu.bartender.activity.detail;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -75,7 +77,6 @@ public class DetailActivity extends AppCompatActivity {
                 return null;
             }
         }
-        @SuppressLint("SetTextI18n")
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
 
@@ -147,7 +148,6 @@ public class DetailActivity extends AppCompatActivity {
             }
 
             ImageView t01 = findViewById(R.id.drinkThumb);
-            //TextView t01 = findViewById(R.id.id);
             TextView t02 = findViewById(R.id.drink);
             TextView t03 = findViewById(R.id.drinkAlternate);
             TextView t04 = findViewById(R.id.tags);
@@ -163,7 +163,6 @@ public class DetailActivity extends AppCompatActivity {
             TextView t14 = findViewById(R.id.instructionsIT);
             TextView t15 = findViewById(R.id.instructionsZH_HANS);
             TextView t16 = findViewById(R.id.instructionsZH_HANT);
-            //ImageView t17 = findViewById(R.id.drinkThumb);
             TextView t18 = findViewById(R.id.ingredient1);
             TextView t19 = findViewById(R.id.ingredient2);
             TextView t20 = findViewById(R.id.ingredient3);
@@ -215,7 +214,7 @@ public class DetailActivity extends AppCompatActivity {
             t14.setText(drinkModel.get(0).getStrInstructionsIT());
             t15.setText(drinkModel.get(0).getStrInstructionsZH_HANS());
             t16.setText(drinkModel.get(0).getStrInstructionsZH_HANT());
-            //t17.setImageResource(drinkModel.get(0).getStrDrinkThumb().);
+            // moved thumb to t01
             t18.setText(drinkModel.get(0).getStrIngredient1());
             t19.setText(drinkModel.get(0).getStrIngredient2());
             t20.setText(drinkModel.get(0).getStrIngredient3());
