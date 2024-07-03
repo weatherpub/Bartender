@@ -16,4 +16,7 @@
     <string name="greeting_about">Bay Area Media -> About</string>
     <string name="greeting_category">Bay Area Media -> Category</string>
     <string name="image_description">Image Holder</string>
+    <string name="test_str">Testing Test</string>
+    <string name="empty">Empty</string>
+    <string name="image_view">The image view</string>
 </resources>

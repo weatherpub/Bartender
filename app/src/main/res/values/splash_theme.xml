@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App.Starting" parent="Theme.Material3.Dark">
+        <item name="android:windowSplashScreenBackground">@color/design_default_color_primary</item>
+        <item name="android:splashScreenTheme">@style/Theme.AppCompat.Light</item>
+    </style>
+</resources>
